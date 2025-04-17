@@ -15,27 +15,9 @@ const Selling = () => {
       </h1>
       <div className="flex">
         <div className="flex mt-10">
-          <Image
-            src={rome1}
-            alt="Rome"
-            width={500}
-            height={400}
-            className=" "
-          />
-          <Image
-            src={london}
-            alt="Rome"
-            width={500}
-            height={400}
-            className=" "
-          />
-          <Image
-            src={evropa}
-            alt="Rome"
-            width={500}
-            height={100}
-            className=" "
-          />
+          <Image src={rome1} alt="Rome" width={500} height={400} />
+          <Image src={london} alt="Rome" width={500} height={400} />
+          <Image src={evropa} alt="Rome" width={500} height={100} />
         </div>
       </div>
     </div>
